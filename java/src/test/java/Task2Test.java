@@ -2,13 +2,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class Task1Test {
+public class Task2Test {
 
-    private Task1 task1= new Task1();
+    private Task2 task2 = new Task2();
 
     @Test
     public void test1element() {
-        assertEquals(13, task1.solve());
+        assertEquals(13, task2.solve());
     }
 
 }
