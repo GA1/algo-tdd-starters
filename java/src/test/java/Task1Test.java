@@ -8,7 +8,7 @@ public class Task1Test {
 
     @Test
     public void test1element() {
-        assertEquals(13, task1.solve());
+        assertEquals(7, task1.solve());
     }
 
 }

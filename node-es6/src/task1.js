@@ -1,6 +1,6 @@
 
 function solve(a) {
-  return 13
+  return 7
 }
 
 function solveWithEs6Feature(a) {

@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "test": "jest __test__ --watch"
+    "test": "jest __test__ --watch --verbose"
   },
   "devDependencies": {
     "jest-cli": "^23.0.0-alpha.0"
