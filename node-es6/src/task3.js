@@ -1,5 +1,5 @@
 
-function solve(a) {
+function solve() {
   return 13
 }
 
