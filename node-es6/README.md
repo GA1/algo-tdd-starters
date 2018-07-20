@@ -1,12 +1,12 @@
 install the dependencies with:
 
 ```
-npm install
+yarn
 ```
 
 Run tests with:
 ```
-npm test
+yarn test
 ```
 
 Have fun coding!
