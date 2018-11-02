@@ -1,11 +1,9 @@
+const Queue = require('./queue').Queue;
 
 function solve() {
-  return 7
-}
-
-function solveWithEs6Feature(a) {
-  return [a, 5, 7].map(n => n*2)
+  const q = new Queue()
+  q.enqueue(7)
+  return q.dequeue()
 }
 
 module.exports.solve = solve;
-module.exports.solveWithEs6Feature = solveWithEs6Feature;
