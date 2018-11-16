@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "test": "jest __test__ --watch --verbose"
+    "test": "jest quick.test.js --watch --verbose",
+    "test:more": "jest more/more.test.js --watch --verbose"
   },
   "devDependencies": {
     "jest": "^23.4.1"
