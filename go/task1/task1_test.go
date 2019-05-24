@@ -6,15 +6,19 @@ import (
 
 func TestSolveTask1(t *testing.T) {
 	tests := []struct {
-		s int
+		input int
+		expected int
 	}{
-		{s: 7},
+		{
+			input: 7,
+			expected: 14,
+		},
 	}
 
 	for _, test := range tests {
-		s := SolveTask1()
-		if s != test.s {
-			t.Errorf("Solution is incorrect, got: %d, expected: %d", s, test.s)
+		result := solve(test.input)
+		if result != test.expected {
+			t.Errorf("Solution is incorrect, got: %d, expected: %d", result, test.expected)
 		}
 	}
 }
