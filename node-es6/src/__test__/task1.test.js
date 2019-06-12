@@ -1,4 +1,4 @@
-var task1 = require('../task1');
+const task1 = require('../task1');
 
 describe('task 1 solver', () => {
   it('should return 7', () => {

@@ -3,4 +3,4 @@ function solve() {
   return 11
 }
 
-module.exports.solve = solve;
+module.exports.solve = solve
