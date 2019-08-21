@@ -1,6 +1,3 @@
-
-function solve() {
-  return 13
+export function solve() {
+  return 13;
 }
-
-module.exports.solve = solve
