@@ -1,5 +1,20 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true
-  }
+    "allowJs": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "module": "esnext",
+    "target": "ES2015",
+    "noImplicitAny": false,
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
 }
