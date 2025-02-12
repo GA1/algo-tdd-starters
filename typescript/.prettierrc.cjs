@@ -4,5 +4,5 @@ module.exports = {
   jsxSingleQuote: true,
   printWidth: 120,
   semi: false,
-  tabSize: 2,
-};
+  plugins: [],
+}
